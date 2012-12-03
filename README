@@ -1,0 +1,56 @@
+dooBuild - Do the Build
+=======================
+Why would you learn another whole language to just make a build system? Why
+would you treat building as something completely separated from the source
+code?
+
+The build is an active and important part of a program, and we think that you
+have better things to do than to learn yet another language to just compile your
+code. dooBuild is a build system written in D, for D developers, and that
+uses D to describe the building process.
+
+There is a LOT of advantages to this approach. First, as already said, you don't
+have to learn another language, you just have to learn how to use the API.
+Second, as dooBuild is written as a library, you can embed it in your
+project. This allows you to, for example, configure, compile and load 3rdparty
+modules ("plugins") at the runtime. Or use it as a backend to manage the
+building process for your IDE. The possibilities are endless.
+
+Although dooBuild is written specifically for D, it also supports C, given the
+close relation both languages have, and plans to support other languages exist.
+
+
+ROADMAP
+-------
+The following bellow is our roadmap for the initial alpha releases. Each release
+is expected to be done in about 15~30 days.
+
+For 0.1 alpha release, we expect the following to be done:
+- Support OS X, Windows (XP, Vista, 7, 8) and Linux.
+- Support DMD, GDC and LDC D compilers.
+- Support GCC (and MinGW), clang and MSVC C compilers.
+
+For 0.2 alpha release, we expect the following to be done:
+- Support basic testing of compiler features.
+
+For 0.3 alpha release, we expect the following to be done:
+- Support basic 3rdparty library search on the user's machine.
+
+For 0.4 alpha release, we expect the following to be done:
+- Support for 3rdparty modules on DBS to allow, for example, IDE project
+generation.
+
+For 0.5 alpha release, we expect the following to be done:
+- Support all available D compilers.
+- Support most used C compilers.
+
+For 0.6 alpha release, we expect the following to be done:
+- Support advanced testing of compiler features.
+
+For 0.7 alpha release, we expect the following to be done:
+- Support advanced 3rdparty library search on the user's machine.
+
+For 0.8 alpha release, we expect the following to be done:
+- Compile using multiple threads to compile faster on multithreaded processors.
+
+Any news will be shown on a new website that is being written.

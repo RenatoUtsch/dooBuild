@@ -1,0 +1,10 @@
+*.o
+*.obj
+*.a
+*.ar
+*.lib
+*.so
+*.so.*
+*.dylib
+*~
+*.tmp
