@@ -1,5 +1,5 @@
-dooBuild - Do the Build
-=======================
+      dooBuild
+====================
 Why would you learn another whole language to just make a build system? Why
 would you treat building as something completely separated from the source
 code?
